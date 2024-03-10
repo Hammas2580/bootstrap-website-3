@@ -1,0 +1,46 @@
+:root {
+    --app--yellow: #ffc221;
+    --app--black: #070500;
+  }
+  /* --nvbar start */
+  .logo-images {
+    margin-left: 10px;
+  }
+  .nav-item {
+    margin: 0px 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ffc221;
+  }
+  .nav-link:hover {
+    color: var(--app--yellow) !important;
+  }
+  .navbar-btn{
+      text-transform: uppercase;
+      padding: 10px !important;
+  }
+  /* --navbar end-- */
+  /* ---about section */
+.main-section{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+    background-color: var(--app--black);
+    color: var(--app--yellow);
+}
+.row {
+    padding: 10px;
+}
+.card-body .card-title{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.card-body .card-text{
+    text-align: center;
+    color: var(--app--black);
+    font-size: 18px;
+}
+.card-body .card-title span{
+    color: var(--app--yellow) !important;
+}

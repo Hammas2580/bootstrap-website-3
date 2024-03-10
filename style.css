@@ -1,0 +1,102 @@
+/* --color section  */
+:root {
+  --app--yellow: #ffc221;
+  --app--black: #070500;
+}
+/* --nvbar start */
+.logo-images {
+  margin-left: 10px;
+}
+.nav-item {
+  margin: 0px 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ffc221;
+}
+.nav-link:hover {
+  color: var(--app--yellow) !important;
+  text-decoration: underline;
+}
+.navbar-btn {
+  text-transform: uppercase;
+  padding: 10px !important;
+}
+/* --navbar end-- */
+
+/* ----slider section start */
+.carousel-caption h5 {
+  font-size: 80px;
+  color: var(--app--yellow);
+  text-align: left;
+  position: relative !important;
+  top: -15px !important;
+  /* line-height: 100px; */
+}
+.carousel-caption p {
+  text-align: left;
+  color: var(--app--black);
+  position: relative !important;
+  top: -15px !important;
+}
+.carousel-caption .btn {
+  margin-right: 1000px;
+  position: relative !important;
+  top: -15px !important;
+  padding: 10px 20px;
+}
+.carousel-caption span {
+  color: var(--app--black);
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .carousel-caption {
+    position: relative;
+    top: 50px;
+  }
+  .carousel-caption h5 {
+    font-size: 30px;
+  }
+}
+/* --slider section end */
+/* ---about section */
+.main-section {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: var(--app--black);
+  color: var(--app--yellow);
+}
+.row {
+  padding: 10px;
+  overflow-x: hidden;
+}
+.card-body .card-title {
+  text-align: center;
+  font-size: 30px;
+}
+.card-body .card-text {
+  text-align: center;
+  color: var(--app--black);
+  font-size: 18px;
+}
+.card-body .card-title span {
+  color: var(--app--yellow) !important;
+}
+/* --contat form ssection */
+.form-label {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+.row{
+  overflow-y: hidden;
+}
+/* --footer-- */
+.me-4 {
+  font-size: 30px;
+  color: var(--app--yellow);
+}
+.me-4 .fa-goole {
+  color: var(--app--yellow);
+}
