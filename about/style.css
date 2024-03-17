@@ -44,3 +44,7 @@
 .card-body .card-title span{
     color: var(--app--yellow) !important;
 }
+.row {
+  margin: 0px !important;
+  }
+ 

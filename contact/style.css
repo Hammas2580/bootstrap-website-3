@@ -36,3 +36,6 @@
     font-weight: bold;
     padding: 10px;
 }
+.row {
+  margin: 0px !important;
+  }
